@@ -18,7 +18,7 @@ pub mod presale {
     use super::*;
         
     //  called by contract deployer only 1 time to initialize global values
-    //  send SOL to global_account and initialize the global states
+    //  send SOL to global_account and initialize the global states!
     pub fn initialize(
         ctx: Context<Initialize>
     ) -> Result<()> {
